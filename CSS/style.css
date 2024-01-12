@@ -1,3 +1,88 @@
+/* / Configurações de fonte*/
+@font-face {
+  font-family: "Inter";
+  src: url("FONTS/Inter-Bold.woff2") format("woff2"),
+    url("FONTS/Inter-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("FONTS/Inter-ExtraBold.woff2") format("woff2"),
+    url("FONTS/Inter-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("FONTS/Inter-Black.woff2") format("woff2"),
+    url("FONTS/Inter-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("FONTS/Inter-SemiBold.woff2") format("woff2"),
+    url("FONTS/Inter-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("FONTS/Inter-Thin.woff2") format("woff2"),
+    url("FONTS/Inter-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("FONTS/Inter-Medium.woff2") format("woff2"),
+    url("FONTS/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("FONTS/Inter-Regular.woff2") format("woff2"),
+    url("FONTS/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("FONTS/Inter-ExtraLight.woff2") format("woff2"),
+    url("FONTS/Inter-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("FONTS/Inter-Light.woff2") format("woff2"),
+    url("FONTS/Inter-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* // Configurações de fonte*/
+
+/* / Geral */
 * {
   margin: 0;
 }
@@ -23,8 +108,9 @@ img {
   display: block;
   max-width: 100%;
 }
+/* // Geral */
 
-/* Menu */
+/* / Menu */
 .menu {
   position: fixed;
   width: 100%;
@@ -93,8 +179,9 @@ img {
   background-color: rgba(156, 235, 193, 0.85);
   border-radius: 50px;
 }
-/* /Menu */
+/* // Menu */
 
+/* / Hero */
 .hero {
   margin: 0 auto;
   display: flex;
@@ -212,6 +299,9 @@ img {
   text-transform: uppercase;
   padding-top: 24px;
 }
+/* // Hero */
+
+/* / Footer */
 .footer-container {
   margin: 0 auto;
 }
@@ -249,3 +339,4 @@ img {
   padding-top: 4px;
   padding-bottom: 10px;
 }
+/* // Footer */
